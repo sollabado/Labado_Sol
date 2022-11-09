@@ -1,0 +1,165 @@
+
+
+
+.bs-font{
+font-family: 'Kanit Medium';
+}
+.intro{
+   background: url(imagenes/fondo2-01.svg) no-repeat center center #b47832 fixed;
+   background-size: cover;
+   height: 100vh;}
+   body p{
+      font-family: 'Kanit Light';
+   }
+   #botoncito {
+      width: 40px;
+      height: 40px;
+      background-color:#b47832;
+      border-radius: 50%;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+  }
+  #botoncito p {
+      margin: 0;
+      font-family: 'Kanit Regular';
+  }
+  #botoncito a {
+      color: #8F2C10;
+      font-size: 10px;
+      text-decoration: none;
+      line-height: 40px;
+      text-align: center;
+      display: block;
+  }
+
+.container2{
+   background-color: #A5773A;
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 10px;
+
+}
+.container3{
+   background-color: #2E2924;
+   text-align: left;
+   padding-top: 50px;
+   padding-bottom: 50px; 
+}
+.container4{
+background-color:#8F2C10;
+contain: content;
+}
+h1{
+  color: #030303;
+  font-family: 'Kanit SemiBold';
+  font-size: larger ;
+  
+}
+h2 {
+   font-family: 'Kanit Regular';
+   color: #030303;
+   
+}
+strong{
+  font-family: 'Kanit Regular';
+}
+p {
+   color: #030303;
+}
+.bg-color{
+ background-color: #b47832;
+ color: #8f2c10;
+}
+
+.card {
+   display: grid;
+   border-radius: 18px;
+   background: white;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+   margin: 50px;
+}
+div.card-body{
+  background: #B89C82;
+}
+p.card-text{
+  font-size:medium
+}
+ul.li{
+ align-content: center;
+}
+footer{
+     background-color: #2E2924;
+     height: 90px;
+  
+      }
+      footer p{
+        color: #8F2C10;
+        font-family: "Kanit Medium";
+        text-align: center;
+        padding: 6px;
+        
+      }
+div.card2{
+      padding: 20px;
+      display: grid;
+      border-radius: 5px;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+      margin: 20px;
+      background: url(imagenes/dadaismoart.svg);
+    }
+  
+.email-box{
+      height: 40px;
+      justify-content: center;
+      display: flex; /*its better to use inline-flex*/
+      font-family: "Kanit Regular";color: #8F2C10;
+    }
+.email-box i{
+      background: #8f2c10;
+      width: 40px;
+      line-height: 40px;
+      background:url(imagenes/mail.png) no-repeat center;
+    }
+.tbox.btn{
+      border: none;
+      outline: none;
+      
+    }
+.tbox{
+      width: 0px;
+      transition: 0.6s;
+      
+    }
+.email-box:hover .tbox.tbox:focus{
+      width: 260px;
+      padding: 0 10px;
+    }
+    .btn{
+      background: #2f3542;
+      color: white;
+      padding: 0 10px;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-family: "Kanit Regular";
+    }
+    button{
+      background-color: #8f2c10;
+    }
+   h1-group{
+    text-align: center;
+   }
+   section h1{
+    font-size: 80px;
+    color: #8f2c10;
+    text-align: center;
+    padding-top: 50px;
+   padding-bottom: 50px; 
+   }
+  #exposiciones h1{
+ color:#000000;
+   }
+   #cursos h1{
+    color:#000000;
+      }
+     
